@@ -72,6 +72,7 @@ body {
 .nav-links a {
     text-decoration: none;
     color: white;
+    transition: color 0.16s ease;
 }
 
 .nav-hoverable-item:hover {
@@ -178,4 +179,77 @@ body {
 .hero-bottom-container {
     height: 448px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-grid-container {
+    max-width: 65%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 15px;
+}
+
+.hero-grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 24px 32px 24px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 45px 0px #00000014;
+    transition: background-color 0.3s ease;
+}
+
+.hero-grid-item:hover {
+    background-color: #FEA116;
+    transition: background-color 0.3s ease;
+}
+
+.hero-grid-item svg {
+    height: 48px;
+    width: auto;
+    object-fit: cover;
+    margin-bottom: 24px;
+    fill: #FEA116;
+    transition: fill 0.3s ease;
+}
+
+.hero-grid-item:hover svg {
+    fill: white;
+    transition: fill 0.3s ease;
+}
+
+.hero-grid-item h4 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 16px;
+    color: #0F172B;
+    transition: color 0.3s ease;
+}
+
+.hero-grid-item p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #666565;
+    transition: color 0.3s ease;
+}
+
+.hero-grid-item:hover h4, 
+.hero-grid-item:hover p {
+    color: white;
+    transition: color 0.3s ease;
 }
