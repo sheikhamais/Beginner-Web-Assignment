@@ -248,8 +248,196 @@ body {
     transition: color 0.3s ease;
 }
 
-.hero-grid-item:hover h4, 
+.hero-grid-item:hover h4,
 .hero-grid-item:hover p {
     color: white;
     transition: color 0.3s ease;
+}
+
+.about-us-section {
+    height: auto;
+    width: 100vw;
+    background-color: #F1F8FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-container {
+    height: 556px;
+    margin: 96px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-gallery-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    margin-right: 15px;
+}
+
+.about-us-gallery-item {
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-gallery-item-top-right-container {
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.about-us-gallery-item-bottom-left-container {
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.about-us-info-container {
+    height: 100%;
+    max-width: 32%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.about-us-info-top-heading-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+.about-us-info-top-heading-container h3 {
+    font-family: Pacifico;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FEA116;
+}
+
+.about-us-info-container-divider-line {
+    width: 46px;
+    height: 2px;
+    margin: 0 10px;
+    background-color: #FEA116;
+}
+
+.about-us-info-welcome-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.about-us-info-welcome-container h3 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.about-us-info-welcome-container svg {
+    fill: #FEA116;
+    width: auto;
+    height: 33px;
+    margin: 0 4px;
+}
+
+.about-us-info-paragraphs-container p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #666565;
+    margin-bottom: 22px;
+}
+
+.about-us-info-market-points-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.about-us-info-market-points-single-block {
+    border-left: 5px solid #FEA116;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+}
+
+.about-us-info-market-points-single-block:first-child {
+    margin-right: 80px;
+}
+
+.about-us-info-market-points-single-block h4 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FEA116;
+    padding-right: 24px;
+}
+
+.about-us-info-market-points-single-block p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #666565;
+}
+
+.about-us-info-market-points-single-block p span {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0F172B;
+}
+
+.about-us-info-readmore-button-container a {
+    padding: 16px 48px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: #FEA116;
+    border-radius: 2px;
 }
