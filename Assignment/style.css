@@ -254,6 +254,8 @@ body {
     transition: color 0.3s ease;
 }
 
+/* About Us Section */
+
 .about-us-section {
     height: auto;
     width: 100vw;
@@ -440,4 +442,118 @@ body {
     text-decoration-skip-ink: none;
     background-color: #FEA116;
     border-radius: 2px;
+}
+
+/* Menu Section */
+
+.menu-section {
+    width: 100vw;
+    height: 819px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container {
+    height: 68%;
+    max-width: 76%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-top-heading-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.menu-top-heading-container h3 {
+    font-family: Pacifico;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FEA116;
+}
+
+.menu-container-divider-line {
+    width: 46px;
+    height: 2px;
+    margin: 0 10px;
+    background-color: #FEA116;
+}
+
+.popular-items-heading {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 44px;
+}
+
+.menu-kind-selection-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 44px;
+    border-bottom: 1px solid #DEE2E6
+}
+
+.menu-kind-selection-bar a {
+    text-decoration: none;
+}
+
+.menu-kind-selection-bar-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #FEA116;
+    margin: 0 16px;
+}
+
+.menu-kind-selection-bar-item svg {
+    fill: #FEA116;
+    margin-top: 6px;
+}
+
+.menu-kind-selection-bar-item p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #666565;
+    padding-left: 16px;
+}
+
+.menu-kind-selection-bar-item p span {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0F172B;
+}
+
+.menu-items-container {
+    background-color: yellow;
+    width: 100%;
+    flex-grow: 1;
+    opacity: 0.3;
 }
