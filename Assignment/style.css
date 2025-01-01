@@ -561,3 +561,138 @@ body {
     height: 100%;
     border: none;
 }
+
+/* Book A Table */
+
+.book-a-table-section {
+    height: 615px;
+    width: 100vw;
+    background-color: #0F172B;
+}
+
+.book-a-table-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.book-a-table-cover-image-container {
+    height: 100%;
+    width: 49%;
+    background-color: orange;
+}
+
+.book-a-table-cover-image-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.book-a-table-form-container {
+    height: 100%;
+    width: 51%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.book-a-table-section-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+.book-a-table-section-title-container h3 {
+    font-family: Pacifico;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FEA116;
+}
+
+.book-a-table-section-title-line {
+    width: 46px;
+    height: 2px;
+    margin: 0 10px;
+    background-color: #FEA116;
+}
+
+.book-a-table-heading {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.book-a-table-form-container form label {
+    display: none;
+}
+
+.name-email-row input,
+.time-total-people-row input,
+.time-total-people-row select {
+    height: 56px;
+    width: 262px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: 1px solid #CED4DA;
+    border-radius: 2px;
+    padding: 16px;
+}
+
+.name-email-row,
+.time-total-people-row,
+.special-request-row {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.special-request-row textarea {
+    height: 98px;
+    width: 556px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: 1px solid #CED4DA;
+    border-radius: 2px;
+    padding: 16px;
+}
+
+.book-now-button {
+    height: 56px;
+    width: 556px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    background-color: #FEA116;
+    border-radius: 2px;
+    border: none;
+}
