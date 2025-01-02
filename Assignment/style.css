@@ -641,8 +641,7 @@ body {
 }
 
 .name-email-row input,
-.time-total-people-row input,
-.time-total-people-row select {
+.time-total-people-row input {
     height: 56px;
     width: 262px;
     font-family: Poppins;
@@ -657,6 +656,10 @@ body {
     padding: 16px;
 }
 
+.time-total-people-row select {
+    display: none;
+}
+
 .name-email-row,
 .time-total-people-row,
 .special-request-row {
@@ -664,6 +667,47 @@ body {
     display: flex;
     flex-direction: row;
     gap: 32px;
+}
+
+.total-people-selection-container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    width: 262px;
+    padding: 16px;
+    border: 1px solid #CED4DA;
+    border-radius: 2px;
+}
+
+.total-people-selection-left-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.total-people-selection-left-texts h5 {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #666565;
+}
+
+.total-people-selection-left-texts p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 20px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #666565;
 }
 
 .special-request-row textarea {

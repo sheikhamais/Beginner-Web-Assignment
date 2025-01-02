@@ -241,22 +241,44 @@
                         <label for="time">Time</label>
                         <input type="text" id="time" name="time" placeholder="Date & Time" required>
 
-                        <label for="people">No Of People</label>
-                        <select id="people" name="people" required>
-                            <option value="" disabled selected>No of People</option>
-                            <option value="1">1 Person</option>
-                            <option value="2">2 People</option>
-                            <option value="3">3 People</option>
-                            <option value="4">4 People</option>
-                            <option value="5">5 People</option>
-                            <option value="-1">>5 People</option>
-                        </select>
+                        <div class="total-people-selection-container">
+
+                            <div class="total-people-selection-left-texts">
+                                <h5>No Of People</h5>
+                                <p>Select</p>
+                            </div>
+                            
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_243)">
+                                    <path d="M2.5 3.75L7 8.25L11.5 3.75" stroke="#343A40" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_243">
+                                        <rect width="12" height="12" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                            <label for="people">No Of People</label>
+                            <select id="people" name="people" required>
+                                <option value="" disabled selected>No of People</option>
+                                <option value="1">1 Person</option>
+                                <option value="2">2 People</option>
+                                <option value="3">3 People</option>
+                                <option value="4">4 People</option>
+                                <option value="5">5 People</option>
+                                <option value="-1">>5 People</option>
+                            </select>
+                        </div>
 
                     </div>
 
                     <div class="special-request-row">
                         <label for="special-request">Special Request</label>
-                        <textarea id="special-request" name="special-request" placeholder="Special Request" rows="4" cols="50"></textarea>
+                        <textarea id="special-request" name="special-request" placeholder="Special Request" rows="4"
+                            cols="50"></textarea>
                     </div>
 
                     <button class="book-now-button" type="submit">BOOK NOW</button>
