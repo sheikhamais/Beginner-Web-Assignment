@@ -740,3 +740,42 @@ body {
     border-radius: 2px;
     border: none;
 }
+
+/* Master Chefs Section */
+
+.master-chefs-section {
+    width: 100vw;
+    height: 638px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.master-chefs-container {
+    height: 448px;
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Testimonials Section */
+
+.testimonials-section {
+    width: 100vw;
+    height: 684px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F8FF;
+}
+
+.testimonials-container {
+    height: 492px;
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
