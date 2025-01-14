@@ -890,7 +890,34 @@ body {
 .testimonial-grid-item {
     background-color: white;
     border-radius: 2px;
-    border: 1px solid #DEE2E6
+    border: 1px solid #DEE2E6;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.testimonial-grid-item:hover {
+    background-color: #FEA116;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.testimonial-grid-item svg {
+    fill: #FEA116;
+    transition: fill 0.3s ease-in-out;
+}
+
+.testimonial-grid-item:hover svg {
+    fill: white;
+    transition: fill 0.3s ease-in-out;
+}
+
+.testimonial-grid-item:hover .testimonial-grid-item-comments {
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.testimonial-grid-item:hover .testimonial-grid-item-person-name-profession-container h5,
+.testimonial-grid-item:hover .testimonial-grid-item-person-name-profession-container p {
+    color: white;
+    transition: color 0.3s ease-in-out;
 }
 
 .testimonial-grid-item svg {
@@ -907,6 +934,7 @@ body {
     text-decoration-skip-ink: none;
     margin: 0 16px;
     color: #666565;
+    transition: color 0.3s ease-in-out;
 }
 
 .testimonial-grid-item-person-info-container {
@@ -930,6 +958,7 @@ body {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    transition: color 0.3s ease-in-out;
 }
 
 .testimonial-grid-item-person-name-profession-container p {
@@ -941,6 +970,7 @@ body {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #666565;
+    transition: color 0.3s ease-in-out;
 }
 
 .testimonial-grid-item-person-name-profession-container {
