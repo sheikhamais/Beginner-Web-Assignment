@@ -976,3 +976,56 @@ body {
 .testimonial-grid-item-person-name-profession-container {
     margin: 0 16px;
 }
+
+/* Footer */
+
+.footer {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #272F41;
+}
+
+.footer-content {
+    height: 100%;
+    width: 68%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright-text {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.footer-copyright-text span {
+    text-decoration: underline;
+}
+
+.footer-content ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.footer-content ul li a {
+    margin: 0 0 0 14px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
