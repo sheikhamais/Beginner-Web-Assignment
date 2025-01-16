@@ -80,6 +80,10 @@ body {
     transition: color 0.16s ease;
 }
 
+.nav-links a.active-nav-item {
+    color: #FEA116;
+}
+
 .book-table-button {
     padding: 0;
 }
@@ -1048,4 +1052,135 @@ body {
 .visible-scroll-to-top-button {
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
+}
+
+/* ------------- Contact Us -------------- */
+
+.contact-us-container {
+    height: 397px;
+    width: 100%;
+    background-image: url('../Assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-us-hero-blur-image-container {
+    height: 100%;
+    width: 100%;
+    background: #000000CC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us-hero-content {
+    width: 65%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us-hero-content h1 {
+    font-family: Nunito;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 76.8px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.contact-us-hero-content p {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.contact-us-hero-content p a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-us-hero-content p .gray-slash {
+    color: #FFFFFF80;
+}
+
+.contact-us-hero-content p .orange-part {
+    color: #FEA116;
+}
+
+/* Contact us form section */
+
+.contact-us-form-section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us-form-container {
+    width: 1296px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 96px 0 145px 0;
+}
+
+.contact-us-form-content {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+}
+
+.contact-us-form-emails-container {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: blueviolet;
+}
+
+.contact-us-form-bottom-container {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+}
+
+.contact-us-form-maps-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.contact-us-form-fields-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
 }
