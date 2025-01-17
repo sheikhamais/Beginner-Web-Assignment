@@ -227,11 +227,11 @@
 
                 <h2 class="book-a-table-heading">Book A Table Online</h2>
 
-                <form method="POST" action="">
+                <form method="POST" action="" id="book-a-table-form">
 
                     <div class="name-email-row">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <input type="text" id="name" name="name" placeholder="Your Name" maxlength="50" required>
 
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email" placeholder="Your Email" required>
@@ -239,7 +239,7 @@
 
                     <div class="time-total-people-row">
                         <label for="time">Time</label>
-                        <input type="text" id="time" name="time" placeholder="Date & Time" required>
+                        <input type="datetime-local" id="time" name="time" placeholder="Date & Time" required>
 
                         <div class="total-people-selection-container">
 
@@ -262,7 +262,7 @@
                             </svg>
 
                             <label for="people">No Of People</label>
-                            <select id="people" name="people" required>
+                            <select id="people" name="people">
                                 <option value="" disabled selected>No of People</option>
                                 <option value="1">1 Person</option>
                                 <option value="2">2 People</option>
@@ -278,7 +278,7 @@
                     <div class="special-request-row">
                         <label for="special-request">Special Request</label>
                         <textarea id="special-request" name="special-request" placeholder="Special Request" rows="4"
-                            cols="50"></textarea>
+                            cols="50" maxlength="250"></textarea>
                     </div>
 
                     <button class="book-now-button" type="submit">BOOK NOW</button>
@@ -588,7 +588,7 @@
     </footer>
 
     <button id="scroll-to-top" class="scroll-to-top-button">↑</button>
-    <script src="main.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 
 </html>
