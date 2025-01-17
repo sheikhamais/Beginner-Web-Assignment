@@ -11,3 +11,9 @@ window.addEventListener('scroll', function() {
 button.addEventListener('click', function() {
     window.scrollTo({top: 0, behavior: 'smooth'});
 })
+
+function changeMenuFrame(event, iframeUrl) {
+    event.preventDefault();
+    const menuFrame = document.getElementById('menu-iframe');
+    menuFrame.src = iframeUrl;
+}

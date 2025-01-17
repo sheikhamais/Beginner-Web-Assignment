@@ -172,7 +172,7 @@
 
             <div class="menu-kind-selection-bar">
 
-                <a href="">
+                <a href="" onclick="changeMenuFrame(event, 'MenuItems/breakfastMenu.html')">
                     <div class="menu-kind-selection-bar-item menu-breakfast">
                         <svg width="41" height="29" viewBox="0 0 41 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -182,7 +182,7 @@
                     </div>
                 </a>
 
-                <a href="">
+                <a href="" onclick="changeMenuFrame(event, 'MenuItems/lunchMenu.html')">
                     <div class="menu-kind-selection-bar-item menu-lunch">
                         <svg width="33" height="29" viewBox="0 0 33 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -192,7 +192,7 @@
                     </div>
                 </a>
 
-                <a href="">
+                <a href="" onclick="changeMenuFrame(event, 'MenuItems/dinnerMenu.html')">
                     <div class="menu-kind-selection-bar-item menu-dinner">
                         <svg width="33" height="29" viewBox="0 0 39 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -205,7 +205,7 @@
             </div>
 
             <div class="menu-items-container">
-                <iframe class="menu-items-frame" src="MenuItems/breakfastMenu.html"></iframe>
+                <iframe id="menu-iframe" class="menu-items-frame" src="MenuItems/breakfastMenu.html"></iframe>
             </div>
 
         </div>
