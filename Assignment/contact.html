@@ -70,15 +70,119 @@
 
             <div class="contact-us-form-content">
 
+                <!-- Email Icon Definition -->
+                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    style="display: none;">
+                    <defs>
+                        <symbol id="email-icon">
+                            <path
+                                d="M16.6562 14.7852C16.6562 15.6289 15.9688 16.2852 15.1562 16.2852H2.15625C1.3125 16.2852 0.65625 15.6289 0.65625 14.7852V6.56641C0.65625 6.09766 0.875 5.66016 1.21875 5.37891C2 4.78516 2.625 4.28516 6.34375 1.59766C6.875 1.22266 7.90625 0.285156 8.65625 0.316406C9.375 0.285156 10.4062 1.22266 10.9375 1.59766C14.6562 4.28516 15.2812 4.78516 16.0625 5.37891C16.4062 5.66016 16.6562 6.09766 16.6562 6.56641V14.7852ZM14.5938 8.66016C14.5 8.53516 14.3438 8.50391 14.2188 8.59766C13.5312 9.12891 12.5 9.87891 10.9375 11.0039C10.4062 11.3789 9.375 12.3164 8.65625 12.2852C7.90625 12.3164 6.875 11.3789 6.34375 11.0039C4.78125 9.87891 3.75 9.12891 3.0625 8.59766C2.9375 8.50391 2.78125 8.53516 2.6875 8.66016L2.40625 9.06641C2.375 9.09766 2.375 9.16016 2.375 9.22266C2.375 9.28516 2.40625 9.37891 2.46875 9.41016C3.1875 9.94141 4.1875 10.6914 5.75 11.8164C6.40625 12.2852 7.53125 13.3164 8.65625 13.2852C9.75 13.3164 10.875 12.2852 11.5312 11.8164C13.0938 10.6914 14.0938 9.94141 14.8125 9.41016C14.875 9.37891 14.9062 9.28516 14.9062 9.22266C14.9062 9.16016 14.9062 9.09766 14.875 9.06641L14.5938 8.66016Z" />
+                        </symbol>
+                    </defs>
+                </svg>
+
                 <div class="contact-us-form-emails-container">
+
+                    <div class="email-container">
+                        <div class="email-heading-container">
+                            <h3>Booking</h3>
+                            <div class="about-us-info-container-divider-line"></div>
+                        </div>
+                        <div class="email-value-container">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <use href="#email-icon"></use>
+                            </svg>
+                            <p>booking@example.com</p>
+                        </div>
+                    </div>
+
+                    <div class="email-container">
+                        <div class="email-heading-container">
+                            <h3>General</h3>
+                            <div class="about-us-info-container-divider-line"></div>
+                        </div>
+                        <div class="email-value-container">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <use href="#email-icon"></use>
+                            </svg>
+                            <p>general@example.com</p>
+                        </div>
+                    </div>
+
+                    <div class="email-container">
+                        <div class="email-heading-container">
+                            <h3>Technical</h3>
+                            <div class="about-us-info-container-divider-line"></div>
+                        </div>
+                        <div class="email-value-container">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <use href="#email-icon"></use>
+                            </svg>
+                            <p>technical@example.com</p>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="contact-us-form-bottom-container">
 
                     <div class="contact-us-form-maps-container">
+                        <img src="../Assets/map.png" alt="Map">
                     </div>
 
                     <div class="contact-us-form-fields-container">
+
+                        <form class="contact-us-form" method="POST" action="">
+                            <div class="name-email-row">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+
+                            <div class="subject-row">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+
+                            <div class="message-row">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Message" 
+                                    cols="50"></textarea>
+                            </div>
+
+                            <button class="send-message-button" type="submit">SEND MESSAGE</button>
+                        </form>
+
+
+                        <!-- <form method="POST" action="">
+
+                            <div class="name-email-row">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+
+                            <div class="time-total-people-row">
+                                <label for="time">Time</label>
+                                <input type="text" id="time" name="time" placeholder="Date & Time" required>
+                            </div>
+
+                            <div class="special-request-row">
+                                <label for="special-request">Special Request</label>
+                                <textarea id="special-request" name="special-request" placeholder="Special Request"
+                                    rows="4" cols="50"></textarea>
+                            </div>
+
+                            <button class="book-now-button" type="submit">SEND MESSAGE</button>
+                        </form> -->
+
                     </div>
 
                 </div>
