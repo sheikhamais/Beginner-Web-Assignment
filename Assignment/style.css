@@ -137,6 +137,16 @@ body {
     width: auto;
     aspect-ratio: 1/1;
     margin-left: 46px;
+    animation: rotation 40s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .hero-heading-description-container {
