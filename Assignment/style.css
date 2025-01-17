@@ -743,6 +743,7 @@ body {
     background-color: #FEA116;
     border-radius: 2px;
     border: none;
+    cursor: pointer;
 }
 
 /* Master Chefs Section */
@@ -1032,6 +1033,7 @@ body {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
+    text-decoration: none;
 }
 
 .scroll-to-top-button {
@@ -1305,4 +1307,5 @@ body {
     background-color: #FEA116;
     border-radius: 2px;
     border: none;
+    cursor: pointer;
 }
