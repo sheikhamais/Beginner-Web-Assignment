@@ -1,0 +1,49 @@
+@media (max-width: 1024px) {
+    .header {
+        position: static;
+        background-color: #0F172B;
+        margin: 0;
+    }
+
+    .header-items-container {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        margin: 0 24px;
+    }
+
+    .logo-text-block-and-menu-icon-container {
+        width: 100%;
+        justify-content: space-between;
+        margin: 12px 0;
+    }
+
+    .hamburger-menu-button-container {
+        display: inline-block;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+        padding: 12px 0 0 0;
+        animation: display 0.5s ease-in-out;
+    }
+
+    #nav-items {
+        display: none;
+    }
+
+    .nav-links a {
+        margin: 5px 0;
+    }
+
+    .nav-link-item {
+        padding: 0;
+    }
+
+    .book-table-button {
+        margin: 13px 0 12px 0;
+    }
+}
