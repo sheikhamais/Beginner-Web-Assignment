@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .header {
         position: static;
         background-color: #0F172B;
@@ -45,5 +45,15 @@
 
     .book-table-button {
         margin: 13px 0 12px 0;
+    }
+
+    .hero-top-content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    #nav-items {
+        display: block !important;
     }
 }
