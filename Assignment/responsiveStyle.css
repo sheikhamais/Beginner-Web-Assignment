@@ -49,6 +49,23 @@
 
     .hero-top-content {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-heading-description-container {
+        align-items: center;
+        margin: 0 12px;
+    }
+
+    .hero-heading-description-container h1,
+    .hero-heading-description-container p,
+    .hero-heading-description-container a {
+        text-align: center;
+    }
+
+    .hero-top-content img {
+        width: 310px;
+        height: 310px;
     }
 }
 

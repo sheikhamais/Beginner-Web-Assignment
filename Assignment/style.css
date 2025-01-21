@@ -8,6 +8,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 .header {
@@ -117,12 +118,12 @@ body {
 }
 
 .hero-container {
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
 }
 
 .hero-top-container {
-    height: 764px;
+    /* height: 764px; */
     width: 100%;
     background-image: url('../Assets/background.png');
     background-repeat: no-repeat;
@@ -141,18 +142,17 @@ body {
 }
 
 .hero-top-content {
-    width: 65%;
-    height: 65%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 132px 17%;
+    gap: 46px;
 }
 
 .hero-top-content img {
-    height: 100%;
-    width: auto;
+    height: 500px;
+    width: 500px;
     aspect-ratio: 1/1;
-    margin-left: 46px;
     animation: rotation 40s linear infinite;
 }
 
