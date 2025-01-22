@@ -72,6 +72,23 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
+
+    /* About Us Section */
+
+    .about-us-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-info-welcome-container h3 {
+        font-size: 28px;
+    }
+
+    .about-us-info-market-points-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
 }
 
 @media screen and (min-width: 1025px) {
