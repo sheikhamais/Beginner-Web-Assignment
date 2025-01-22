@@ -14,8 +14,35 @@ button.addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 })
 
-function changeMenuFrame(event, iframeUrl) {
+const breakfastMenuChangeAnchor = document.getElementById('breakfast-menu-change-anchor');
+const lunchMenuChangeAnchor = document.getElementById('lunch-menu-change-anchor');
+const dinnerMenuChangeAnchor = document.getElementById('dinner-menu-change-anchor');
+
+breakfastMenuChangeAnchor.addEventListener('click', function (event) {
     event.preventDefault();
+    changeMenuFrame('MenuItems/breakfastMenu.html');
+    breakfastMenuChangeAnchor.classList.add('menu-kind-selection-bar-item-active');
+    lunchMenuChangeAnchor.classList.remove('menu-kind-selection-bar-item-active');
+    dinnerMenuChangeAnchor.classList.remove('menu-kind-selection-bar-item-active');
+})
+
+lunchMenuChangeAnchor.addEventListener('click', function (event) {
+    event.preventDefault();
+    changeMenuFrame('MenuItems/lunchMenu.html');
+    breakfastMenuChangeAnchor.classList.remove('menu-kind-selection-bar-item-active');
+    lunchMenuChangeAnchor.classList.add('menu-kind-selection-bar-item-active');
+    dinnerMenuChangeAnchor.classList.remove('menu-kind-selection-bar-item-active');
+})
+
+dinnerMenuChangeAnchor.addEventListener('click', function (event) {
+    event.preventDefault();
+    changeMenuFrame('MenuItems/dinnerMenu.html');
+    breakfastMenuChangeAnchor.classList.remove('menu-kind-selection-bar-item-active');
+    lunchMenuChangeAnchor.classList.remove('menu-kind-selection-bar-item-active');
+    dinnerMenuChangeAnchor.classList.add('menu-kind-selection-bar-item-active');
+})
+
+function changeMenuFrame(iframeUrl) {
     const menuFrame = document.getElementById('menu-iframe');
     menuFrame.src = iframeUrl;
 }

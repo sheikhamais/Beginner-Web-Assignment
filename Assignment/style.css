@@ -553,8 +553,11 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     padding-bottom: 16px;
-    border-bottom: 2px solid #FEA116;
     margin: 0 16px;
+}
+
+.menu-kind-selection-bar-item-active {
+    border-bottom: 2px solid #FEA116;
 }
 
 .menu-kind-selection-bar-item svg {
