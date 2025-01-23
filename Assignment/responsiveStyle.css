@@ -95,7 +95,7 @@
     .popular-items-heading {
         font-size: 28px;
     }
-    
+
     .menu-kind-selection-bar-item {
         margin: 0 6px;
     }
@@ -106,6 +106,50 @@
 
     .menu-kind-selection-bar-item p span {
         font-size: 15px;
+    }
+
+    /* Book a table */
+
+    .book-a-table-container {
+        flex-direction: column;
+    }
+
+    .book-a-table-cover-image-container {
+        width: 100%;
+    }
+
+    .book-a-table-form-container {
+        width: 100%;
+        padding: 48px 24px 58px 24px;
+    }
+
+    .book-a-table-heading {
+        font-size: 28px;
+    }
+
+    .name-email-row,
+    .time-total-people-row,
+    .special-request-row {
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+
+    .name-email-row input,
+    .time-total-people-row input {
+        width: 100%;
+    }
+
+    .total-people-selection-container {
+        width: 100%;
+    }
+
+    .special-request-row textarea {
+        width: 100%;
+    }
+
+    .book-now-button {
+        width: 100%;
     }
 }
 

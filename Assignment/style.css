@@ -601,7 +601,6 @@ body {
 /* Book A Table */
 
 .book-a-table-section {
-    height: 615px;
     width: 100vw;
     background-color: #0F172B;
 }
@@ -614,9 +613,8 @@ body {
 }
 
 .book-a-table-cover-image-container {
-    height: 100%;
-    width: 49%;
     background-color: orange;
+    flex: 1;
 }
 
 .book-a-table-cover-image-container img {
@@ -626,12 +624,11 @@ body {
 }
 
 .book-a-table-form-container {
-    height: 100%;
-    width: 51%;
-    padding: 30px;
+    padding: 96px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 1;
 }
 
 .book-a-table-section-title-container {
