@@ -779,7 +779,6 @@ body {
 
 .master-chefs-section {
     width: 100vw;
-    height: 638px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -787,11 +786,11 @@ body {
 }
 
 .master-chefs-container {
-    height: 484px;
-    width: 1140px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 96px;
+    margin-bottom: 58px;
 }
 
 .master-chefs-gallery-container {
