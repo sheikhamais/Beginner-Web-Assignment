@@ -1012,7 +1012,6 @@ body {
 
 .footer {
     width: 100vw;
-    height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1027,6 +1026,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 24px 0;
 }
 
 .footer-copyright-text {
@@ -1037,6 +1037,9 @@ body {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .footer-copyright-text span {

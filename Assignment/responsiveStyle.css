@@ -167,6 +167,16 @@
     .testimonials-grid-container {
         grid-template-columns: 1fr;
     }
+
+    /* Footer */
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-copyright-text {
+        margin-bottom: 21px;
+    }
 }
 
 @media screen and (min-width: 1025px) {
