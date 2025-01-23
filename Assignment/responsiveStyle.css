@@ -92,6 +92,10 @@
 
     /* Menu Section */
 
+    .popular-items-heading {
+        font-size: 28px;
+    }
+    
     .menu-kind-selection-bar-item {
         margin: 0 6px;
     }

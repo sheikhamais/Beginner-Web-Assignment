@@ -104,3 +104,8 @@ navToggleMenuButton.addEventListener('click', function (event) {
         navItems.style.display = 'none';
     }
 })
+
+const menuFrame = document.getElementById('menu-iframe');
+menuFrame.addEventListener('load', function () {
+    menuFrame.style.height = menuFrame.contentWindow.document.body.scrollHeight + 'px';
+})

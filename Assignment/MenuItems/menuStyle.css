@@ -10,9 +10,17 @@ body {
     height: 100%;
 }
 
+.main-container {
+    margin: 0 250px;
+}
+
 table {
     width: 100%;
-    border-spacing: 30px 24px;
+    border-spacing: 0;
+}
+
+td {
+    padding: 12px 15px;
 }
 
 .menu-item-block {
@@ -78,4 +86,14 @@ table {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #666565;
+}
+
+@media screen and (max-width: 1024px) {
+    td {
+        display: block;
+    }
+
+    .main-container {
+        margin: 0 22px;
+    }
 }
