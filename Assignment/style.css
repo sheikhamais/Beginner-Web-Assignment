@@ -891,7 +891,6 @@ body {
 
 .testimonials-section {
     width: 100vw;
-    height: 684px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -900,11 +899,10 @@ body {
 }
 
 .testimonials-container {
-    height: 492px;
-    width: 1140px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 96px 17% 220px 17%;
 }
 
 .testimonials-blocks-container {

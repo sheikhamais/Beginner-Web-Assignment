@@ -157,6 +157,16 @@
     .master-chefs-gallery-container {
         grid-template-columns: 1fr;
     }
+
+    /* Testimonials Section */
+
+    .testimonials-container {
+        margin: 96px 24px 76px 24px;
+    }
+
+    .testimonials-grid-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (min-width: 1025px) {
