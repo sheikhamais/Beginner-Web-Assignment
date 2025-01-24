@@ -177,6 +177,16 @@
     .footer-copyright-text {
         margin-bottom: 21px;
     }
+
+    /* Contact Us Section */
+
+    .contact-us-hero-content h1 {
+        font-size: 38px;
+    }
+
+    .contact-us-hero-content p {
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 1025px) {
