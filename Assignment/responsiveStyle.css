@@ -187,6 +187,32 @@
     .contact-us-hero-content p {
         font-size: 15px;
     }
+
+    .contact-us-form-emails-container {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .contact-us-form-bottom-container {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .contact-us-form-maps-container {
+        width: 100%;
+    }
+
+    .contact-us-form-fields-container {
+        width: 100%;
+    }
+
+    .contact-us-form-bottom-container {
+        padding: 0 24px;
+    }
+
+    .email-container {
+        margin: 0 24px;
+    }
 }
 
 @media screen and (min-width: 1025px) {
